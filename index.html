@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflective Inquiry Sheet (RIS) Flip Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>Reflective Inquiry Sheet (RIS)</h1>
+        <p>Flip book interaktif untuk self-directed learning mahasiswa</p>
+      </div>
+      <div class="controls">
+        <button id="prevBtn">‹</button>
+        <button id="nextBtn">›</button>
+      </div>
+    </header>
+
+    <main class="book-wrap">
+      <div class="book" id="book">
+        <section class="page cover">
+          <div class="page-front">
+            <h2>RIS</h2>
+            <p>Reflective Inquiry Sheet</p>
+          </div>
+          <div class="page-back">
+            <h3>Petunjuk</h3>
+            <ol>
+              <li>Buka setiap halaman secara berurutan.</li>
+              <li>Isi bagian refleksi sesuai pengalaman belajar.</li>
+              <li>Gunakan halaman terakhir untuk perencanaan ulang.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="page">
+          <div class="page-front">
+            <h3>1. Identifikasi Tujuan</h3>
+            <div class="box"></div>
+          </div>
+          <div class="page-back">
+            <h3>2. Kebutuhan Belajar</h3>
+            <div class="box"></div>
+          </div>
+        </section>
+
+        <section class="page">
+          <div class="page-front">
+            <h3>3. Strategi Belajar</h3>
+            <div class="box"></div>
+          </div>
+          <div class="page-back">
+            <h3>4. Monitoring</h3>
+            <div class="box"></div>
+          </div>
+        </section>
+
+        <section class="page">
+          <div class="page-front">
+            <h3>5. Refleksi</h3>
+            <div class="box"></div>
+          </div>
+          <div class="page-back">
+            <h3>6. Perencanaan Ulang</h3>
+            <div class="box"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span id="pageIndicator">Halaman 1</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

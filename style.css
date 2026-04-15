@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.book {
+  width: 800px;
+  margin: auto;
+}
+.box {
+  height: 200px;
+  border: 1px dashed #aaa;
+}
